@@ -34,7 +34,7 @@ $colors: (
   font-primary: #212121,
   theme-accent: #e67e22,
   theme-secondary-light: #e67e22,
-  font-white: #fff
+  font-white: #fff,
 );
 *,
 *:after,
@@ -450,6 +450,7 @@ p {
   border: 1px solid #e67e228a;
   border-radius: 4px;
   padding: 10px 25px 8px 20px;
+  align-items: center;
   background: color(font-white);
   width: max-content;
   transition: all 0.2s ease-in-out;
@@ -469,8 +470,6 @@ p {
   }
   .contentWrap {
     position: relative;
-    top: 55%;
-    transform: translateY(-45%);
     h5 {
       font-size: 10px;
       margin: 0;
